@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="ReportListener.ExtentReporterNG"></listener>
+	</listeners>
+	<parameter name="userName" value="test@test.com" />
+	<parameter name="userPassword" value="ThisIs@T3st" />
+	<parameter name="wrongUserName" value="test" />
+	<parameter name="wrongUserPassword" value="123" />
+	<parameter name="email" value="test@gmail.com" />
+	<parameter name="password" value="Test@123" />
+	<parameter name="cPassword" value="Test@123" />
+	<parameter name="civility" value="Mr" />
+	<parameter name="lName" value="Nekware" />
+	<parameter name="fName" value="Shahnawaz" />
+	<parameter name="day" value="12" />
+	<parameter name="month" value="11" />
+	<parameter name="year" value="1990" />
+	<parameter name="street" value="Champ de Mars" />
+	<parameter name="apartment" value="5 Avenue Anatole" />
+	<parameter name="address" value="Frankrijk" />
+	<parameter name="zip" value="75007" />
+	<parameter name="mobile" value="0612345678" />
+	<parameter name="home" value="0123456789" />
+	<test name="Web Automation">
+	    <classes>
+	    	<class name="ui.TestExecutable" />
+	    </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
