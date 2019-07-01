@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="ReportListener.ui.ExtentReporterNG"></listener>
+		<listener class-name="ReportListener.ExtentReporterNG"></listener>
 	</listeners>
 	<parameter name="userName" value="test@test.com" />
 	<parameter name="userPassword" value="ThisIs@T3st" />
